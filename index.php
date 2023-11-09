@@ -7,7 +7,7 @@ $user_name = 'Alex'; // укажите здесь ваше имя
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Главная!</title>
+    <title>Главная</title>
     <link href="./css/normalize.min.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
 </head>
@@ -30,7 +30,7 @@ $user_name = 'Alex'; // укажите здесь ваше имя
 
         <!-- здесь должен быть PHP код для показа меню и данных пользователя -->
            <?php if ($is_auth == 1):?>
-            <div class="user-menu__logged">
+            <div class="user-menu__logged1">
                 <p><?= $user_name; ?></p>
                 <a class="user-menu__bets" href="pages/my-bets.html">Мои ставки</a>
                 <a class="user-menu__logout" href="#">Выход</a>
