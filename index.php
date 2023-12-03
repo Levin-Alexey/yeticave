@@ -160,7 +160,7 @@ $user_name = 'Alex'; // укажите здесь ваше имя
     <footer class="main-footer">
         <nav class="nav">
             <ul class="nav__list container">
-                <!--заполните этот список из массива категорий!-->
+                <!--заполните этот список из массива категорий!!!-->
                 <?php foreach ($categories as $val): ?>
                     <li class="nav__item">
                         <a href="pages/all-lots.html">
